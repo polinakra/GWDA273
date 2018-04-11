@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+div {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header,footer {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    font-size: 45px;
+}
+
+footer{
+  margin-top: 20px;
+  font-size: 20px;
+}
+nav {
+  background-color: cornflowerblue;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  width: 150px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: black;
+}
+
+nav a.youarehere {
+  background-color: black;
+}
+
+main {
+  display: flex;
+}
+
+article {
+  font-size: 25px;
+  width: 70%;
+  padding: 20px;
+  background-color: white;
+
+}
+
+aside {
+  font-size: 20px;
+  width: 30%;
+  padding: 20px;
+  background-color: cornflowerblue;
+  color: white;
+}
+aside.smaller {
+  margin-top: 20px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.my-work {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    width: 200px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: thick white solid;
+}
+
+
+.titles {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 25px;
+    color: cornflowerblue;
+    text-align: center;
+    width: 200px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    border: thin cornflowerblue solid;
+}
