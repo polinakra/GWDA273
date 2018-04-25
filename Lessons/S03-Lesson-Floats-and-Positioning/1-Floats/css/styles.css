@@ -1,0 +1,55 @@
+body {
+	background-color: #fff5f8;
+}
+
+.wrapper {
+	background-color: white;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	padding: 20px; background-color: #360c28; color: white;
+}
+footer {
+	padding: 20px; background-color: #360c28; color: white;
+}
+main {
+	padding: 20px; background-color: #eb88a5; color: white;
+}
+section {
+	padding: 20px; background-color: #fff5f8; color: #360c28;
+	margin-bottom: 20px;
+}
+
+img.smaller {
+	width: 150px;
+}
+
+#girl1 {
+	padding: 10px;
+	float: right;
+}
+
+#girl2 {
+	padding: 10px;
+	float: right;
+}
+#girl3 {
+	padding: 10px;
+	float: left;
+}
+main {
+	float: left;
+}
+section {
+	float: left;
+	width: 720px;
+}
+#girl4 {
+float: left;
+}
+#girl5 {
+float: right;
+}

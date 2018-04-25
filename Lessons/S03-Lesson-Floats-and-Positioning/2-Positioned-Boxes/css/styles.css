@@ -1,0 +1,43 @@
+body {
+	background-color: maroon;
+}
+ /*
+ General Box Styles :: All boxes share these props
+ */
+
+ .box {
+	 width: 100px;
+	 height: 100px;
+	 line-height: 100px;
+	 background-color: teal;
+
+	 text-align: center;
+	 font-size: 30px;
+	 color: white;
+
+	 border: solid 10px black;
+ }
+
+/*
+Position Specific boxes
+*/
+
+.rel {
+	background-color: red;
+}
+.abs {
+	background-color: green;
+}.fix {
+	background-color: blue;
+}
+
+.box2 {
+	background-color: pink;
+}
+.box3 {
+ background-color: purple;
+}
+.box4 {
+background-color: teal;
+border: solid 20px black;
+}

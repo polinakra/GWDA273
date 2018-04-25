@@ -1,0 +1,76 @@
+body {
+	background-color: maroon;
+}
+
+
+/*-------------------------------------
+| Container and Pixel Grid
+-------------------------------------*/
+
+.container {
+	width: 600px;
+	height: 600px;
+	background-image: url('../img/pixelgrid.gif');
+
+	margin: 50px auto;
+
+	position: relative;
+}
+
+/*-------------------------------------
+| General Box Styles :: All boxes share these props
+-------------------------------------*/
+
+.box {
+	width: 90px;
+	height: 90px;
+	line-height: 95px;
+	text-align: center;
+
+	color: white;
+	font-size: 30px;
+}
+
+/*-------------------------------------
+| Relative Boxes
+-------------------------------------*/
+
+.rel .box {
+	background-color: #4ba7a7;
+	border: solid 5px #367b7b;
+	position: relative;
+	top: 100px;
+}
+.rel .box1 { left: 100px; }
+.rel .box2 { left: 200px; }
+.rel .box3 { left: 300px; }
+.rel .box4 { left: 400px; }
+
+/*-------------------------------------
+| Absolute Boxes
+-------------------------------------*/
+
+.abs .box {
+	background-color: #89290c;
+	border: solid 5px #68200a;
+	position: absolute;
+}
+.abs .box1 { right: 0px; top: 0px; z-index: 2}
+.abs .box2 { right: 50px; top: 50px; z-index: 1}
+.abs .box3 { left: 0px; bottom: 0px; z-index: 2}
+.abs .box4 { left: 50px; bottom: 50px; z-index: 1}
+
+/*-------------------------------------
+| Fixed Boxes
+-------------------------------------*/
+
+.fix .box {
+	background-color: #a348a4;
+	border: solid 5px #7b367b;
+	position: fixed;
+}
+
+.fix .box1 { left: 0px; top: 0px; }
+.fix .box2 { right: 0px; top: 0px; }
+.fix .box3 { left: 0px; bottom: 0px; }
+.fix .box4 { right: 0px; bottom: 0px; }

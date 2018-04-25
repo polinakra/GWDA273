@@ -50,6 +50,7 @@ nav a.youarehere {
 
 main {
   display: flex;
+  justify-content: center;
 }
 
 article {
