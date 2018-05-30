@@ -1,0 +1,140 @@
+body {
+	background-image: url(../img/background.jpg);
+}
+
+/*-------------------------------------
+| Foundation
+-------------------------------------*/
+div.wrapper {
+	max-width: 1024px;
+	min-width: 320px;
+	width: 100%;
+
+	margin: auto;
+}
+
+div.wrapper2 {
+  max-width: 700px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  padding-top: 20px;
+  margin-top: -20px;
+}
+
+div.wrapper2 p {
+
+  font-size: 18pt;
+  padding: 15px;
+}
+
+.smallimg {
+  width: 700px;
+}
+
+/*-------------------------------------
+| Header
+-------------------------------------*/
+header.opening {
+  background-color: white;
+	height: 160px;
+	position: relative;
+}
+
+header.opening h1.logo{
+	background-image: url(../img/logo.png);
+  width: 200px;
+  height: 150px;
+  font-size: 0;
+  margin-top: -5px;
+}
+
+nav.mainmenu {
+	position: absolute;
+	right: 75px; bottom: 100px;
+}
+
+nav.mainmenu a {
+	display: inline-block;
+	font-size: 25px;
+	text-decoration: none;
+
+	margin-left: 73px;
+	color: black;
+}
+nav.mainmenu a:hover {
+	color: #f28e6c;
+  text-decoration: underline;
+}
+
+/*-------------------------------------
+| Horizontal Rule
+-------------------------------------*/
+.openingimage img {
+  width: 1024px;
+}
+
+/*-------------------------------------
+| Places
+-------------------------------------*/
+p.place {
+	line-height: 0;
+}
+
+
+.slideshow img {
+	max-width: 100%;
+}
+
+/*Hamburger menu*/
+
+.glyphicon-menu-hamburger {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+	font-size: 30px;
+	color: #f88b00;
+}
+
+@media screen and (min-width: 945px) {
+	.glyphicon-menu-hamburger { display: none; }
+}
+
+body {
+	font-family: helvetica, sans-serif;
+}
+
+
+/*Mobile styles*/
+nav.mainmenu {
+	position: absolute;
+	right: 12px; bottom: 20px;
+	padding: 10px;
+
+	z-index: 100;
+	display: none;
+}
+nav.mainmenu a {
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+
+	color: black;
+}
+nav.mainmenu a:hover {
+	color: #f28e6c;
+}
+
+nav.show { display: block; text-align: right;}
+
+/*Desctop Breakpoint*/
+@media screen and (min-width: 945px) {
+	nav.mainmenu { right: 75px; bottom: 100px; display: block;}
+	nav.mainmenu a {
+display: inline-block;
+margin-left: 73px;
+}
+}
